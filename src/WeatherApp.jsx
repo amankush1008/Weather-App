@@ -19,7 +19,7 @@ export default function WeatherApp(){
     let updateInfo = (newInfo)=>{
         setWeatherInfo(newInfo);
     };
-    let styles= {textAlign:'center',color:'#green'};
+    let styles= {textAlign:'center',color:'#007FFF'};
     return (
         <div style={styles} className="weather-app">
             <h1>Weather App</h1>
